@@ -55,4 +55,4 @@ def retrieve_item_details(item_ids):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8501, debug=True)
+    app.run(debug=True)
