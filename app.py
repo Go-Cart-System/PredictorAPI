@@ -6,7 +6,7 @@ from order_predictor import OrderPredictor
 app = Flask(__name__)
 
 # Initialize Firebase Service
-SERVICE_ACCOUNT_KEY = 'go-cart-68aa2-firebase-adminsdk-3os6i-6a120ebb05.json'
+SERVICE_ACCOUNT_KEY = 'sak.json'
 DATABASE_URL = 'https://go-cart-68aa2-default-rtdb.firebaseio.com/'
 firebase_service = FirebaseService(SERVICE_ACCOUNT_KEY, DATABASE_URL)
 
